@@ -4,6 +4,10 @@ Convert any webpage into clean, LLM-ready Markdown using [skrape.ai](https://skr
 
 This MCP server provides a simple interface to convert web pages to structured, clean Markdown format using the skrape.ai API. It's designed to work seamlessly with Claude Desktop, other LLMs, and MCP-compatible applications.
 
+<a href="https://glama.ai/mcp/servers/7i81qzgkzd">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/7i81qzgkzd/badge" />
+</a>
+
 ## Why Use Skrape for LLM Integration?
 
 - **Clean, Structured Output**: Generates well-formatted Markdown that's ideal for LLM consumption
