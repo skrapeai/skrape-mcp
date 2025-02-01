@@ -1,5 +1,6 @@
 # Skrape MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@skrapeai/skrape-mcp)](https://smithery.ai/server/@skrapeai/skrape-mcp)
 Convert any webpage into clean, LLM-ready Markdown using [skrape.ai](https://skrape.ai). Perfect for feeding web content into LLMs.
 
 This MCP server provides a simple interface to convert web pages to structured, clean Markdown format using the skrape.ai API. It's designed to work seamlessly with Claude Desktop, other LLMs, and MCP-compatible applications.
@@ -28,6 +29,15 @@ This MCP server provides a simple interface to convert web pages to structured, 
 
 ## Installation
 
+### Installing via Smithery
+
+To install Skrape MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@skrapeai/skrape-mcp):
+
+```bash
+npx -y @smithery/cli install @skrapeai/skrape-mcp --client claude
+```
+
+### Manual Installation
 1. Get your API key from [skrape.ai](https://skrape.ai)
 
 1. Install dependencies:
