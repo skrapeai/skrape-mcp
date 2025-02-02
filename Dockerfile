@@ -11,21 +11,10 @@ COPY package.json package-lock.json ./
 RUN npm install --ignore-scripts
 
 # Copy the rest of the application source code
-COPY src src
-COPY tsconfig.json tsconfig.json
+COPY . .
 
 # Build the TypeScript code
 RUN npm run build
-
-# Production image
-FROM node:20-alpine
-
-# Set the working directory
-WORKDIR /app
-
-# Copy the built code and node_modules from the builder stage
-COPY --from=builder /app/build build
-COPY --from=builder /app/node_modules node_modules
 
 # Set the API key as an environment variable
 ENV SKRAPE_API_KEY=your-key-here
