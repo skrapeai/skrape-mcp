@@ -1,21 +1,18 @@
 # Skrape MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@skrapeai/skrape-mcp)](https://smithery.ai/server/@skrapeai/skrape-mcp)
-Convert any webpage into clean, LLM-ready Markdown using [skrape.ai](https://skrape.ai). Perfect for feeding web content into LLMs.
-
-This MCP server provides a simple interface to convert web pages to structured, clean Markdown format using the skrape.ai API. It's designed to work seamlessly with Claude Desktop, other LLMs, and MCP-compatible applications.
-
 <a href="https://glama.ai/mcp/servers/7i81qzgkzd">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/7i81qzgkzd/badge" />
+<img width="380" height="200" src="https://glama.ai/mcp/servers/7i81qzgkzd/badge" />
 </a>
 
-## Why Use Skrape for LLM Integration?
+Convert webpages into clean, LLM-ready Markdown using [skrape.ai](https://skrape.ai). An MCP server that seamlessly integrates web scraping with Claude Desktop and other MCP-compatible applications.
 
-- **Clean, Structured Output**: Generates well-formatted Markdown that's ideal for LLM consumption
-- **Noise Reduction**: Automatically removes ads, navigation menus, and other irrelevant content
-- **Consistent Format**: Ensures web content is uniformly structured regardless of the source
-- **JavaScript Support**: Handles dynamic content by rendering JavaScript before conversion
-- **LLM-Optimized**: Perfect for feeding web content into LLMs like Claude, GPT, and other LLM models
+## Key Features
+
+- **Clean Output**: Removes ads, navigation, and irrelevant content
+- **JavaScript Support**: Handles dynamic content rendering
+- **LLM-Optimized**: Structured Markdown perfect for AI consumption
+- **Consistent Format**: Uniform structure regardless of source
 
 ## Features
 
@@ -38,6 +35,7 @@ npx -y @smithery/cli install @skrapeai/skrape-mcp --client claude
 ```
 
 ### Manual Installation
+
 1. Get your API key from [skrape.ai](https://skrape.ai)
 
 1. Install dependencies:
@@ -76,7 +74,7 @@ Add this configuration (replace paths and API key with your values):
       "args": ["path/to/skrape-mcp/build/index.js"],
       "env": {
         "SKRAPE_API_KEY": "your-key-here"
-      },
+      }
     }
   }
 }
