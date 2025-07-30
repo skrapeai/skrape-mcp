@@ -1,9 +1,6 @@
 # Skrape MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@skrapeai/skrape-mcp)](https://smithery.ai/server/@skrapeai/skrape-mcp)
-<a href="https://glama.ai/mcp/servers/7i81qzgkzd">
-<img width="380" height="200" src="https://glama.ai/mcp/servers/7i81qzgkzd/badge" />
-</a>
 
 Convert webpages into clean, LLM-ready Markdown using [skrape.ai](https://skrape.ai). An MCP server that seamlessly integrates web scraping with Claude Desktop and other MCP-compatible applications.
 
@@ -151,3 +148,9 @@ npm run inspector
 ```
 
 The Inspector will provide a URL to access debugging tools in your browser.
+
+---
+
+<a href="https://glama.ai/mcp/servers/7i81qzgkzd">
+<img width="190" height="100" src="https://glama.ai/mcp/servers/7i81qzgkzd/badge" />
+</a>
