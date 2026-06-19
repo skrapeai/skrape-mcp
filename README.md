@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/skrapeai-skrape-mcp-badge.png)](https://mseep.ai/app/skrapeai-skrape-mcp)
+
 # Skrape MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@skrapeai/skrape-mcp)](https://smithery.ai/server/@skrapeai/skrape-mcp)
